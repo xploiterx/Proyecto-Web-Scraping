@@ -42,7 +42,7 @@ _Para desarrollar este curso es necesario contar con estos elementos instalados 
 
 -----------------------------------
 
-## Pasos a seguir: 
+## Resumen y Pasos a seguir: 
 ----------------------
 1. A través de Airflow crearemos un DAG el cual se encargará de ejecutar en la implementación concreta de nuestro Lago de Datos(minio), la ultma versión extendida de la herramienta llamada Googler (https://github.com/jarun/googler) la cual ofrece la característica de poder consultar en Google y varios de sus servicios como lo son Búsquedas Web, Noticias y Videos desde la consola del sistema operativo, es decir sin usar explícitamente un navegador web. Es decir, combinando Airflow y Googler, automatizamos la consulta y almacenamiento de búsquedas en Google. El autor de este artículo modificó Googler para que también descargue todo el contenido de las noticias, no solamente el resumen. Por lo que la ingestión será mucho mayor y se tendrá más texto para analizar.
 
@@ -54,9 +54,34 @@ _Para desarrollar este curso es necesario contar con estos elementos instalados 
 
 -------------------
 
-_Por último nuestro Lago de Datos no incorpora los componentes de Gobernanza, Seguridad de Datos y Administración de Metadatos. Dichos componentes dependen de las reglas y tecnologías adoptadas por cada organización, por lo que en esta versión las dejamos fuera. Sin embargo son parte de la definición completa de un Lago de Datos. Esto lo veremos en la siguiente version de los entornos de desarrollo  de https://xploiter.co donde implmentaré los muy conocidos delta lakes  https://delta.io/ el cual cubre los nuevos conceptos de lago de datos conocidos como Lakehouses_
+_Por último nuestro Lago de Datos no incorpora los componentes de Gobernanza, Seguridad de Datos y Administración de Metadatos. Dichos componentes dependen de las reglas y tecnologías adoptadas por cada organización, por lo que en esta versión las dejamos fuera. Sin embargo son parte de la definición completa de un Lago de Datos. Esto lo veremos en la siguiente versión de los entornos de desarrollo  de https://xploiter.co donde implementaré los muy conocidos delta lakes  https://delta.io/ el cual cubre los nuevos conceptos de lago de datos conocidos como Lakehouses_
 
 --------------------
+
+## Desarrollo
+
+Crearemos tres carpetas principales: "config", "notebooks" y "services" - sobre las cuales se crearán otros sub-directorios - en estas tres carpetas almacenaremos algunos de los archivos que usaremos como el DAG que se implementará en airflow o las variables de entorno - Estas carpetas servirán como directorios de ruta para los contenedores. La estructura del directorio quedarán así(preview): 
+
+```
+├── config
+│   ├── controller
+│   │   ├── **/*.css
+│   ├── views
+│   ├── model
+│   ├── index.js
+├── notebooks
+│   ├── libs
+│   ├── news
+├── services
+│   ├── airflow
+│   ├── fastapi
+│   ├── jupyter-spark
+│   ├── postgresql
+│   ├── postgresql
+├── docker-compose.yml
+├── Readme.md
+├── LICENSE 
+```
 
 
 
