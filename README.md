@@ -64,11 +64,6 @@ Crearemos tres carpetas principales: "config", "notebooks" y "services" - sobre 
 
 ```
 ├── config
-│   ├── controller
-│   │   ├── **/*.css
-│   ├── views
-│   ├── model
-│   ├── index.js
 ├── notebooks
 │   ├── libs
 │   ├── news
