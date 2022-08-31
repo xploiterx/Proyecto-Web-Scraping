@@ -60,7 +60,7 @@ _Por último nuestro Lago de Datos no incorpora los componentes de Gobernanza, S
 
 ## Desarrollo
 
-Crearemos tres carpetas principales: "config", "notebooks" y "services" - sobre las cuales se crearán otros sub-directorios - en estas tres carpetas almacenaremos algunos de los archivos que usaremos como el DAG que se implementará en airflow o las variables de entorno - Estas carpetas servirán como directorios de ruta para los contenedores. La estructura del directorio quedarán así(preview): 
+Crearemos tres carpetas principales: "config", "notebooks" y "services" - sobre las cuales se crearán otros sub-directorios - en estas tres carpetas almacenaremos algunos de los archivos que usaremos como el DAG que se implementará en airflow o las variables de entorno - Estas carpetas servirán como directorios de ruta para los contenedores. La estructura del directorio quedarán así (preview): 
 
 ```
 ├── config
