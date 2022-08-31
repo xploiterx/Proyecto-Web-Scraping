@@ -4,7 +4,7 @@
 
 
 ## Analizando Big Data de Noticias con Workspace (Baterías Incluidas)
-En este proyecto mostraré como ejecutar en tu equipo personal o en un workspace los componentes básicos de una plataforma de datos, con esfuerzo mínimo gracias a la tecnología de workspaces (https://xploiter.co/). Por cierto, si aun no cuentas con las herramientas para el desarrollo de este proyecto, este es un buen momento para que lo hagas adquiriendo tu Workspace acá WS. https://bit.ly/3OkRqbp 
+En este proyecto mostraré como ejecutar en tu equipo personal o en un workspace los componentes básicos de una plataforma de datos, con esfuerzo mínimo gracias a la tecnología de workspaces (https://xploiter.co/). Por cierto, si aun no cuentas con las herramientas para el desarrollo de este proyecto, este es un buen momento para que lo hagas adquiriendo tu Workspace. 
 
 Gracias a esta tecnología bastará con ejecutar una sola línea en tu terminal y despues de un par de minutos tendrás todos los componentes básicos de una plataforma de datos ejecutándose en tu navegador. Con todo eso en ejecución podrás realizar facilmente este proyecto en el cual recolectarás sistemáticamente miles de artículos de noticias de los últimos meses, creando una base de datos semiestructurada. 
 
