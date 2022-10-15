@@ -38,7 +38,7 @@ Para nuestro caso de uso se diseño una plataforma de datos sencilla, pero algun
 
 --------------------------
 
-_Para desarrollar este curso es necesario contar con estos elementos instalados en sus PC - sino cuentas con estas herramientas puedes desarrllarlo en https://xploiter.co adquiriendo un workspace_ 
+_Para desarrollar este curso es necesario contar con estos elementos instalados en sus PC - sino cuentas con estas herramientas puedes desarrllarlo en z2h adquiriendo un workspace
 
 -----------------------------------
 
